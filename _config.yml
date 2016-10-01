@@ -4,7 +4,7 @@
 title: "Zrain Blog"
 description: "Zrain's blog,use Jekyll and github pages."
 keywords: "Zrain,Jalpc,blog,Jekyll,github,gh-pages"
-baseurl: "/"
+baseurl: "/rain.github.io/"
 url: "http://rain18.github.io/rain.github.io/"
 # url: "http://127.0.0.1:4000"
 
