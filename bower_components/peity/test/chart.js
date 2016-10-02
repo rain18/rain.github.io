@@ -5,7 +5,7 @@ var child_process = require('child_process')
 
 var path = function(subdir) {
   return function(id) {
-    return __dirname + '/' + subdir + '/' + id + '.png'
+    return __dirname + '/' + subdir + '/rain.github.io/' + id + '.png'
   }
 }
 
@@ -74,7 +74,7 @@ Chart.prototype.screenshot = function(savePath, callback) {
 }
 
 Chart.prototype.url = function() {
-  return 'http://localhost:' + port + '/' + this.id
+  return 'http://localhost:' + port + '/rain.github.io/' + this.id
 }
 
 exports.all = function() {
